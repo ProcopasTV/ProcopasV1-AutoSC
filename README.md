@@ -21,7 +21,7 @@ sc ini free dan open source gak di tutupi apalah itu.
 Yang dibawah ini
 
 A. Masukan ini
-wget https://raw.githubusercontent.com/ProcopasTV/ProcopasV1-AutoSC/main/cert.sh
+"wget https://raw.githubusercontent.com/ProcopasTV/ProcopasV1-AutoSC/main/cert.sh"
 
 B. chmod +x cert.sh
 Tunggu hinggal selesai
