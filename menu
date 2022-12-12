@@ -8,9 +8,10 @@ wh="\033[0m"
 red='\e[1;31m'
 green='\e[0;32m'
 CYAN='\033[0;36m'
-echo -e "\E[44;1;39m MENU UTAMA              \E[0m"
-echo -e "\E[0;41;36m          Script Mod By Saunkancil         \E[0m"
-echo -e "             ═══[Trojan]═══"
+echo -e "\E[44;1;39m        MENU UTAMA              \E[0m"
+echo -e "\E[0;41;36m        Script Mod By Saunkancil         \E[0m"
+echo -e "           ═══[Vmess&Trojan]═══"
+echo -  " Telegram https://t.me/Procopas"
 echo -e " =============================="
 echo -e " 1)  Menu Trojan Account"
 echo -e " 2)  Menu Vmess Account"
