@@ -1,0 +1,34 @@
+#!/bin/bash
+# ==========================================
+# Color
+# download menu
+cd /usr/bin
+wget -O menu "https://raw.githubusercontent.com/ProcopasTV/ProcopasV1-AutoSC/main/menu"
+wget -O ipsaya "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/ipsaya.sh"
+wget -O vmessmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/vmessmenu.sh"
+wget -O vlessmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/vlessmenu.sh"
+wget -O xray-grpc "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/grpc/xray-grpc.sh"
+wget -O grpcmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/grpcmenu.sh"
+wget -O grpcupdate "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/grpcupdate.sh"
+wget -O trmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/trmenu.sh"
+wget -O trgomenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/trgomenu.sh"
+wget -O setmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/setmenu.sh"
+wget -O updatemenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/updatemenu.sh"
+wget -O slhost "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/ssh/slhost.sh"
+wget -O sl-download-info "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/contohinfo/sl-download-info.sh"
+wget -O menuinfo "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/menuinfo.sh"
+chmod +x /usr/bin/menu
+chmod +x /usr/bin/menu
+chmod +x /usr/bin/menu
+chmod +x /usr/bin/menu
+chmod +x /usr/bin/menu
+chmod +x /usr/bin/menu
+chmod +x /usr/bin/menu
+chmod +x /usr/bin/menu
+chmod +x /usr/bin/menu
+chmod +x /usr/bin/menu
+chmod +x /usr/bin/menu
+chmod +x /usr/bin/menu
+chmod +x /usr/bin/menu
+chmod +x /usr/bin/menu
+cd
