@@ -15,3 +15,16 @@ untuk donasi dan tanya tanya di telegram
 
 sc ini free dan open source gak di tutupi apalah itu.
 
+1. Siapkan Vps
+2. Pointing Ip Ke Cloudflare
+3. Setelah Penginstalan Selesai copaskan
+Yang dibawah ini
+
+A. wget https://raw.githubusercontent.com/ProcopasTV/ProcopasV1-AutoSC/main/cert.sh
+
+B. chmod +x cert.sh
+
+Tunggu hinggal selesai
+Lalu buat akun tested.
+
+
