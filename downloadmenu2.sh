@@ -38,5 +38,5 @@ chmod +x /usr/bin/add-trojan
 chmod +x /usr/bin/del-trojan
 chmod +x /usr/bin/renew-trojan
 chmod +x /usr/bin/cek-trojan.sh
-chmod +x /usr/bin/downloadmenu
+chmod +x /usr/bin/downloadmenu2
 cd
