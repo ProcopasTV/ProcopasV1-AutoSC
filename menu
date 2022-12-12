@@ -16,9 +16,9 @@ echo -e " =============================="
 echo -e " 1)  Menu Trojan Account"
 echo -e " 2)  Menu Vmess Account"
 echo -e " 3)  Perbarui Cert"
-echo -e " 4)  Bersihkan Ram"
+echo -e " 4)  Bersihkan Log"
 echo -e " 5)  Restart Service"
-echo -e " 6)  Cek Akun Aktif"
+echo -e " 6)  Hapus Akun expire"
 echo -e " 7)  Bacukup Data "
 echo -e " 8)  Speedtest VPS"
 echo -e " 9)  Cek Service Trojan"
@@ -36,27 +36,24 @@ menu-vmess
 cert.sh
 ;;
 4)
-clear-ram
+clear-log.sh
 ;;
 5)
-clear-log
-;;
-6)
 xp
 ;;
-7)
+6)
 delexp.sh
 ;;
-8)
+7)
 backup
 ;;
-9)
+8)
 speedtest
 ;;
-10)
+9)
 cek-service.sh
 ;;
-11)
+10)
 restart
 ;;
 *)
