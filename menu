@@ -41,7 +41,7 @@ clear-ram.sh
 clear-log
 ;;
 5)
-xp
+xp.sh
 ;;
 6)
 delexp.sh
