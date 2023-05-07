@@ -1,0 +1,60 @@
+mixed-port: 1234
+authentication:
+  - "alfiyaku"
+allow-lan: true
+#jdjd
+mode: Rule
+log-level: info
+external-controller: :9090
+#bind-address: "*"
+unified-delay: true
+profile:
+  store-selected: true
+  store-fake-ip: true
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  listen: 0.0.0.0:7874
+  nameserver:
+  - dhcp://"eth1"
+  - 192.168.8.1
+  - 1.1.1.1
+  - 49.0.0.49
+  - https://dns.adguard.com/dns-query
+  - https://dns.google/dns-query
+  - tls://dns.adguard.com
+  - tls://dns.google
+  fallback:
+  - 1.0.0.1
+  - https://cloudflare-dns.com/dns-query
+  - https://dns.google/dns-query
+  default-nameserver:
+  - 1.1.1.1
+  - 49.0.0.49
+  - 192.168.8.1
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+  - "+.*"
+proxies:
+  - name: SKC-ID1-HERZA
+    server: skc-id1.skcnet.my.id
+    port: 443
+    type: trojan
+    password: fb37a418-cd67-11ed-8be2-00163ea53b9e
+    skip-cert-verify: true
+    sni: skc-id1.skcnet.my.id
+    udp: true
+    network: ws
+    ws-opts:
+      path: /trojanws
+      headers:
+        Host: skc-id1.skcnet.my.id
+proxy-groups:
+- name: SKC-SERVER
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 60
+  tolerance: 1
+  proxies:
+      - SKC-ID1-HERZA
